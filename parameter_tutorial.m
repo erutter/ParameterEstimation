@@ -1,13 +1,7 @@
 % Parameter Estimation Tutorial
 % Driver for the parameter estimation tutorial on ***WEBSITE***
-%
-%    INPUTS:
-%        is_discrete: indicator whether you want to estimate using discrete
-%            approximations (1) or continuous/spline approximations (0)
-%
-%    OUTPUTS:
-%        precomputed_sol: a mat-file with the full forward solutions over  
-%             the parameter space of interest (named 'fullsol')
+% This code creates synthetic data with porportional error then does OLS
+% and GLS for parameter estimation. Residuals are examined at the end
 %
 % Written by Erica Rutter (February 2020)
 
